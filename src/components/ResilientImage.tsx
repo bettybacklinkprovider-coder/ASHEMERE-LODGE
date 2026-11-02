@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Compass } from 'lucide-react';
+import { BUNDLED_IMAGES } from '../assets/imageRegistry';
 
 interface ResilientImageProps {
   src: string;
@@ -7,6 +8,18 @@ interface ResilientImageProps {
   className?: string;
   fallbackTitle?: string;
   fallbackSubtitle?: string;
+}
+
+function resolveProductionImageSrc(rawSrc: string): string {
+  if (!rawSrc) return BUNDLED_IMAGES.woodlandPavilion;
+  if (rawSrc.includes('hero_woodland_pavilion')) return BUNDLED_IMAGES.woodlandPavilion;
+  if (rawSrc.includes('estate_cantilever_cliff')) return BUNDLED_IMAGES.cantileverCliff;
+  if (rawSrc.includes('estate_courtyard_atrium')) return BUNDLED_IMAGES.courtyardAtrium;
+  if (rawSrc.includes('estate_alpine_monolith')) return BUNDLED_IMAGES.alpineMonolith;
+  if (rawSrc.startsWith('/src/assets/images/')) {
+    return rawSrc.replace('/src/assets/images/', '/assets/images/');
+  }
+  return rawSrc;
 }
 
 export const ResilientImage: React.FC<ResilientImageProps> = ({
@@ -17,6 +30,7 @@ export const ResilientImage: React.FC<ResilientImageProps> = ({
   fallbackSubtitle = 'Obsidian Sanctuary Archive',
 }) => {
   const [hasError, setHasError] = useState(false);
+  const resolvedSrc = resolveProductionImageSrc(src);
 
   if (hasError) {
     return (
@@ -43,7 +57,7 @@ export const ResilientImage: React.FC<ResilientImageProps> = ({
 
   return (
     <img
-      src={src}
+      src={resolvedSrc}
       alt={alt}
       referrerPolicy="no-referrer"
       onError={() => setHasError(true)}

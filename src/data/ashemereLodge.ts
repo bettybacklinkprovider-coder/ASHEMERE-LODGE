@@ -1,3 +1,5 @@
+import { BUNDLED_IMAGES } from '../assets/imageRegistry';
+
 export interface RateOption {
   id: string;
   provider: string;
@@ -136,7 +138,7 @@ export const PHOTO_ASSETS: PhotoAsset[] = [
     category: 'Exterior',
     timestamp: '6 days ago',
     contributor: 'By owner',
-    imageUrl: '/src/assets/images/hero_woodland_pavilion_1793608842744.jpg',
+    imageUrl: BUNDLED_IMAGES.woodlandPavilion,
     aspectSpan: 'lg:col-span-7',
   },
   {
@@ -145,7 +147,7 @@ export const PHOTO_ASSETS: PhotoAsset[] = [
     category: 'Latest',
     timestamp: '6 days ago',
     contributor: 'From visitors',
-    imageUrl: '/src/assets/images/estate_courtyard_atrium_1793608845251.jpg',
+    imageUrl: BUNDLED_IMAGES.courtyardAtrium,
     aspectSpan: 'lg:col-span-5',
   },
   {
@@ -154,7 +156,7 @@ export const PHOTO_ASSETS: PhotoAsset[] = [
     category: 'Rooms',
     timestamp: '2 weeks ago',
     contributor: 'By owner',
-    imageUrl: '/src/assets/images/estate_alpine_monolith_1793608844586.jpg',
+    imageUrl: BUNDLED_IMAGES.alpineMonolith,
     aspectSpan: 'lg:col-span-4',
   },
   {
@@ -163,7 +165,7 @@ export const PHOTO_ASSETS: PhotoAsset[] = [
     category: 'Kitchen',
     timestamp: '1 month ago',
     contributor: 'From visitors',
-    imageUrl: '/src/assets/images/estate_cantilever_cliff_1793608843805.jpg',
+    imageUrl: BUNDLED_IMAGES.cantileverCliff,
     aspectSpan: 'lg:col-span-4',
   },
   {
@@ -172,7 +174,7 @@ export const PHOTO_ASSETS: PhotoAsset[] = [
     category: 'Street View & 360°',
     timestamp: 'Updated Nov 2026',
     contributor: 'Street View & 360°',
-    imageUrl: '/src/assets/images/hero_woodland_pavilion_1793608842744.jpg',
+    imageUrl: BUNDLED_IMAGES.woodlandPavilion,
     aspectSpan: 'lg:col-span-4',
     is360: true,
   },
@@ -182,7 +184,7 @@ export const PHOTO_ASSETS: PhotoAsset[] = [
     category: 'Videos',
     timestamp: 'Latest · Just added',
     contributor: 'By owner',
-    imageUrl: '/src/assets/images/hero_woodland_pavilion_1793608842744.jpg',
+    imageUrl: BUNDLED_IMAGES.woodlandPavilion,
     videoUrl: '/assets/aistudio/BACKGROUND_05d101d4.mp4',
     aspectSpan: 'lg:col-span-6',
     isVideo: true,
@@ -193,7 +195,7 @@ export const PHOTO_ASSETS: PhotoAsset[] = [
     category: 'From visitors',
     timestamp: '3 months ago',
     contributor: 'kieranb315',
-    imageUrl: '/src/assets/images/estate_alpine_monolith_1793608844586.jpg',
+    imageUrl: BUNDLED_IMAGES.alpineMonolith,
     aspectSpan: 'lg:col-span-6',
   },
 ];
@@ -304,7 +306,7 @@ export const NEARBY_HOTELS: NearbyHotel[] = [
     distance: '2.6 mi away',
     pricePkr: 34900,
     neighborhood: 'Tallaght, Dublin 24',
-    imageUrl: '/src/assets/images/estate_cantilever_cliff_1793608843805.jpg',
+    imageUrl: BUNDLED_IMAGES.cantileverCliff,
   },
   {
     id: 'maldron-newlands',
@@ -315,7 +317,7 @@ export const NEARBY_HOTELS: NearbyHotel[] = [
     distance: '0.8 mi away',
     pricePkr: 31200,
     neighborhood: 'Clondalkin, Dublin 22',
-    imageUrl: '/src/assets/images/estate_alpine_monolith_1793608844586.jpg',
+    imageUrl: BUNDLED_IMAGES.alpineMonolith,
   },
   {
     id: 'louis-fitzgerald',
@@ -326,7 +328,7 @@ export const NEARBY_HOTELS: NearbyHotel[] = [
     distance: '1.2 mi away',
     pricePkr: 36500,
     neighborhood: 'Newlands Cross, Dublin',
-    imageUrl: '/src/assets/images/estate_courtyard_atrium_1793608845251.jpg',
+    imageUrl: BUNDLED_IMAGES.courtyardAtrium,
   },
 ];
 

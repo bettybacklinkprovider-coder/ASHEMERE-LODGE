@@ -1,3 +1,5 @@
+import { BUNDLED_IMAGES } from '../assets/imageRegistry';
+
 export interface RoomHotspot {
   id: string;
   index: string;
@@ -62,7 +64,7 @@ export const ESTATES: Estate[] = [
     glazingAreaSqm: 245,
     acousticRatingDb: 18,
     priceGuidance: 'USD 18,500,000 · Private Treaty',
-    imageUrl: '/src/assets/images/hero_woodland_pavilion_1793608842744.jpg',
+    imageUrl: BUNDLED_IMAGES.woodlandPavilion,
     imageAlt: 'Karuizawa Woodland Pavilion at twilight with warm glowing suspended hearth and black basalt infinity reflection pool',
     leadNarrative:
       'Set within a cuatro-hectare old-growth red pine forest, the Karuizawa Pavilion suspends a monolithic charred cedar roof plane over frameless triple-glazed structural glass and hand-split Kurama basalt.',
@@ -174,7 +176,7 @@ export const ESTATES: Estate[] = [
     glazingAreaSqm: 290,
     acousticRatingDb: 20,
     priceGuidance: 'USD 24,000,000 · Private Treaty',
-    imageUrl: '/src/assets/images/estate_cantilever_cliff_1793608843805.jpg',
+    imageUrl: BUNDLED_IMAGES.cantileverCliff,
     imageAlt: 'Minimalist monolithic dark concrete cliffside sanctuary cantilevered over the Pacific Ocean at dusk',
     leadNarrative:
       'Anchored 184 meters into coastal granite bedrock via post-tensioned titanium tiebacks, the Garrapata Monolith projects 14 meters over the Pacific surf zone in complete structural silence.',
@@ -271,7 +273,7 @@ export const ESTATES: Estate[] = [
     glazingAreaSqm: 180,
     acousticRatingDb: 15,
     priceGuidance: 'USD 14,800,000 · Private Treaty',
-    imageUrl: '/src/assets/images/estate_courtyard_atrium_1793608845251.jpg',
+    imageUrl: BUNDLED_IMAGES.courtyardAtrium,
     imageAlt: 'Interior nocturnal dark stone and charred cedar courtyard sanctuary with sunken hearth and moss garden',
     leadNarrative:
       'Conceived as an inward-looking cloister in northern Kyoto, the Daitoku-ji Atrium wraps four subterranean and ground-level living pavilions around a 400-year-old bryophyte moss and maple sanctuary.',
@@ -353,7 +355,7 @@ export const ESTATES: Estate[] = [
     glazingAreaSqm: 310,
     acousticRatingDb: 17,
     priceGuidance: 'CHF 26,500,000 · Private Treaty',
-    imageUrl: '/src/assets/images/estate_alpine_monolith_1793608844586.jpg',
+    imageUrl: BUNDLED_IMAGES.alpineMonolith,
     imageAlt: 'Secluded nocturnal alpine glass and dark basalt stone residence nestled in a quiet Swiss mountain valley',
     leadNarrative:
       'Carved into a high-altitude larch ridge at 1,920 meters in the Upper Engadin, this twin-volume residence pairs dry-stacked Valser quartzite towers with warm bronze-framed alpine observatories.',
