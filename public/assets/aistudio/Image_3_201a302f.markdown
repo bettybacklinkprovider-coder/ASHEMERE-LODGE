@@ -1,0 +1,240 @@
+---
+name: Obsidian Sanctuary
+colors:
+  surface: '#131313'
+  surface-dim: '#131313'
+  surface-bright: '#3a3939'
+  surface-container-lowest: '#0e0e0e'
+  surface-container-low: '#1c1b1b'
+  surface-container: '#201f1f'
+  surface-container-high: '#2a2a2a'
+  surface-container-highest: '#353534'
+  on-surface: '#e5e2e1'
+  on-surface-variant: '#d5c3b4'
+  inverse-surface: '#e5e2e1'
+  inverse-on-surface: '#313030'
+  outline: '#9e8e80'
+  outline-variant: '#514539'
+  surface-tint: '#faba71'
+  primary: '#ffd3a6'
+  on-primary: '#482900'
+  primary-container: '#f2b36b'
+  on-primary-container: '#704401'
+  inverse-primary: '#845414'
+  secondary: '#c6c6c6'
+  on-secondary: '#2f3131'
+  secondary-container: '#454747'
+  on-secondary-container: '#b5b5b5'
+  tertiary: '#dddbda'
+  on-tertiary: '#313030'
+  tertiary-container: '#c1bfbe'
+  on-tertiary-container: '#4e4e4d'
+  error: '#ffb4ab'
+  on-error: '#690005'
+  error-container: '#93000a'
+  on-error-container: '#ffdad6'
+  primary-fixed: '#ffddba'
+  primary-fixed-dim: '#faba71'
+  on-primary-fixed: '#2b1700'
+  on-primary-fixed-variant: '#673d00'
+  secondary-fixed: '#e3e2e2'
+  secondary-fixed-dim: '#c6c6c6'
+  on-secondary-fixed: '#1a1c1c'
+  on-secondary-fixed-variant: '#454747'
+  tertiary-fixed: '#e5e2e1'
+  tertiary-fixed-dim: '#c8c6c5'
+  on-tertiary-fixed: '#1c1b1b'
+  on-tertiary-fixed-variant: '#474746'
+  background: '#131313'
+  on-background: '#e5e2e1'
+  surface-variant: '#353534'
+typography:
+  headline-display:
+    fontFamily: Newsreader
+    fontSize: 72px
+    fontWeight: '300'
+    lineHeight: 80px
+    letterSpacing: -0.02em
+  headline-display-mobile:
+    fontFamily: Newsreader
+    fontSize: 40px
+    fontWeight: '300'
+    lineHeight: 48px
+    letterSpacing: -0.01em
+  headline-lg:
+    fontFamily: Newsreader
+    fontSize: 48px
+    fontWeight: '300'
+    lineHeight: 56px
+    letterSpacing: -0.015em
+  headline-lg-mobile:
+    fontFamily: Newsreader
+    fontSize: 32px
+    fontWeight: '300'
+    lineHeight: 40px
+    letterSpacing: -0.01em
+  headline-md:
+    fontFamily: Newsreader
+    fontSize: 32px
+    fontWeight: '400'
+    lineHeight: 40px
+    letterSpacing: 0em
+  headline-sm:
+    fontFamily: Outfit
+    fontSize: 22px
+    fontWeight: '300'
+    lineHeight: 30px
+    letterSpacing: 0.06em
+  body-lg:
+    fontFamily: Outfit
+    fontSize: 18px
+    fontWeight: '300'
+    lineHeight: 32px
+    letterSpacing: 0.02em
+  body-md:
+    fontFamily: Outfit
+    fontSize: 15px
+    fontWeight: '300'
+    lineHeight: 26px
+    letterSpacing: 0.025em
+  body-sm:
+    fontFamily: Outfit
+    fontSize: 13px
+    fontWeight: '400'
+    lineHeight: 22px
+    letterSpacing: 0.03em
+  label-lg:
+    fontFamily: Outfit
+    fontSize: 13px
+    fontWeight: '400'
+    lineHeight: 18px
+    letterSpacing: 0.18em
+  label-md:
+    fontFamily: Outfit
+    fontSize: 11px
+    fontWeight: '400'
+    lineHeight: 16px
+    letterSpacing: 0.22em
+  label-sm:
+    fontFamily: Outfit
+    fontSize: 10px
+    fontWeight: '500'
+    lineHeight: 14px
+    letterSpacing: 0.26em
+spacing:
+  gutter: 2rem
+  gutter-mobile: 1rem
+  margin: 4rem
+  margin-mobile: 1.5rem
+  space-xs: 0.375rem
+  space-sm: 0.75rem
+  space-md: 1.5rem
+  space-lg: 3rem
+  space-xl: 5rem
+---
+
+## Brand & Style
+
+The design system embodies "quiet luxury" and architectural minimalism within a cinematic, night-time environment. Tailored for ultra-high-net-worth patrons, architectural connoisseurs, and prospective residents of prime estates, the interface avoids aggressive commercial tactics in favor of contemplative reverence, space, and composure.
+
+The visual expression converges two design paradigms:
+- **Atmospheric Minimalism:** Vast negative space, disciplined structural alignment, and strict content restraint evoke the stillness of walking through a secluded woodland pavilion at twilight.
+- **Subtle Glassmorphism & Tonal Restraint:** Translucent, deep-tinted surfaces soften background photography without interrupting spatial continuity. Fine-milled translucent borders reflect peripheral light like precision-cut architectural glazing.
+
+Interactions are calibrated for slow grace: lingering transitions, silent state changes, and wide typographic tracking create an uncompromising editorial aura reminiscent of bespoke monographs and rare art folios.
+
+## Colors
+
+The palette derives from charred timber, architectural glass, slate, and glowing interior amber hearths.
+
+### Color Tiers & Roles
+- **Base Canvas (`#0F0F0F`)**: The deepest obsidian backdrop. Absorbs ambient light and grounds the photographic assets.
+- **Surface Mid (`#141414`)**: Used for contextual panels, side navigation trays, and elevated layers.
+- **Surface High (`#181818`)**: Interactive panels, elevated cards, and floating architectural index overlays.
+- **Primary Accent (`#F2B36B`)**: Warm glowing amber. Used strictly for focal interactions, active timeline indicators, curated metadata pips, and deliberate luxury accents. Never over-saturated or used across broad structural fills.
+- **Secondary (`#CFCFCF`)**: Muted bone off-white. Dedicated to secondary body titles, metadata readouts, architectural drawing line art, and structural navigation links.
+- **Neutral Core (`#0F0F0F`)**: The tonal foundation.
+- **Typography & Tonal Contrast**:
+  - Primary Content: `#FFFFFF` (pure ambient light, reserved for prominent headlines and hero statements).
+  - Secondary Content: `#CFCFCF` (bone white, for high-legibility narrative paragraphs).
+  - De-emphasized Content: `#9E9E9E` (weathered stone, for legal text, technical specifications, and metadata markers).
+  - Delimiting Borders: `rgba(255, 255, 255, 0.08)` to `rgba(242, 179, 107, 0.20)` for interactive states.
+
+## Typography
+
+The typographic hierarchy pairs the literary authority of **Newsreader** (used for high-impact editorial statements, section introductions, and evocative headings) with the structural poise of **Outfit** (a pristine, light geometric sans-serif delivering effortless legibility and modernism).
+
+### Typographic Rules
+- **Headline Display & Editorial Headers (`Newsreader`)**: Rendered in low-weight, high-scale glyphs (`300` weight) with tight line heights to simulate physical architectural monographs.
+- **Labels, Indexes & Navigation (`Outfit`)**: Rendered with extended letter-spacing (`0.18em` to `0.26em`) and uppercase transformation. This architectural labeling standard lends technical rigor to dates, coordinates, and spatial dimensions.
+- **Body Narratives (`Outfit`)**: Kept at light weight (`300`) with generous line heights (`1.7`–`1.8x`) to ensure visual airiness against deep dark backdrops.
+
+## Layout & Spacing
+
+The layout is grounded in a classic 12-column editorial grid inspired by Swiss modernism and high-end print folios. Negative space acts as a structural material, prioritizing intentional voids over density.
+
+### Breakpoints & Canvas Logic
+- **Desktop (1440px+)**: 12-column layout. Margin: `4rem` (`space-xl` equivalent). Column Gutter: `2rem`. Max content wrapper: `1600px`. Asymmetric placement is encouraged (e.g., imagery spanning 7 columns, accompanying text occupying 3 columns with a 2-column offset).
+- **Tablet (768px – 1439px)**: 8-column layout. Margin: `2.5rem`. Column Gutter: `1.5rem`. Multi-column narrative layouts reflow into stacked pairings.
+- **Mobile (<768px)**: 4-column layout. Margin: `1.5rem`. Column Gutter: `1rem`. Hero elements fill horizontal edges with edge-to-edge photography and soft underlaid text scrollers.
+
+### Vertical Rhythm
+Section transitions mandate deliberate breath: vertical section margins consistently deploy `space-xl` or dynamic multiples (`6rem` to `10rem`), resisting dense cluster formations.
+
+## Elevation & Depth
+
+Depth is defined through optical density, surface luminance, and edge illumination rather than heavy dropshadows.
+
+### Layering Hierarchy
+1. **Canvas Base (`#0F0F0F`)**: Lowest physical foundation.
+2. **Atmospheric Recesses**: High-resolution architectural imagery and landscape photography sit flush or slightly dimmed with dark directional vignette gradients (`rgba(15, 15, 15, 0.4)` to `#0F0F0F`).
+3. **Glass Translucent Surfaces (Cards, Nav, Drawers)**:
+   - Surface background: `rgba(20, 20, 20, 0.65)`.
+   - Backdrop filter: `blur(20px) saturate(140%)`.
+   - Perimeter highlight: `1px solid rgba(255, 255, 255, 0.07)`.
+4. **Interactive & Elevated Floating Shells**:
+   - Surface background: `rgba(24, 24, 24, 0.85)`.
+   - Backdrop filter: `blur(32px)`.
+   - Perimeter highlight: `1px solid rgba(242, 179, 107, 0.18)` (subtle amber light catch).
+   - Ambient Glow: `0 24px 48px -12px rgba(0, 0, 0, 0.75), 0 0 20px 0 rgba(242, 179, 107, 0.04)`.
+
+## Shapes
+
+The architectural vernacular requires razor-sharp, rectilinear geometry (`roundedness: 0`). 
+
+- **Corners**: Strictly 90-degree corners across all structural containers, modals, buttons, form inputs, and image frames. This evokes stone slabs, structural steel framing, and planar glass facades.
+- **Micro-accents**: Circular geometry is permitted solely for functional markers (e.g., active status indicators, compass orientators, playback scrub heads) where a `50%` radius differentiates a focal tool from the architecture.
+- **Dividers & Lines**: Hairline profiles (`1px`), either solid at low opacity (`rgba(255, 255, 255, 0.08)`) or broken with structural dashed treatments for technical floorplans and measurement axes.
+
+## Components
+
+### Buttons
+- **Primary Action (Inquire / Schedule Private Viewing)**: Sharp rectangular profile. Background of warm glowing amber (`#F2B36B`), text in pure dark obsidian (`#0F0F0F`), typography set to `label-md` uppercase. Hover state deepens the fill to an amber radiance (`#DDA058`) with a subtle outward halo (`box-shadow: 0 0 24px rgba(242, 179, 107, 0.25)`).
+- **Secondary / Ghost Action**: Obsidian glass fill (`rgba(24, 24, 24, 0.5)`), bordered with hairline off-white (`1px solid rgba(255, 255, 255, 0.15)`), text in `#FFFFFF`. Hover shifts border to amber (`rgba(242, 179, 107, 0.5)`) and text to `#F2B36B`.
+
+### Cards & Property Modules
+- Framed in frosted glass (`rgba(20, 20, 20, 0.6)`) with `1px` translucent borders.
+- Imagery is treated with natural low-key contrast; on hover, images softly scale (`scale(1.02)`) over `700ms cubic-bezier(0.16, 1, 0.3, 1)`.
+- Metadata overlays use `label-sm` tracking with amber bullet dividers.
+
+### Chips & Floorplan Filters
+- Sharp, understated pill-less tags. Rectangular bounds padded with `space-xs` vertically and `space-sm` horizontally.
+- Inactive: Transparent fill, bordered by `rgba(255, 255, 255, 0.08)`, text in `#9E9E9E`.
+- Active: Bordered by amber `#F2B36B`, text in `#FFFFFF`, with a delicate amber pip indicator (`3px` square) positioned left of the label.
+
+### Input Fields
+- Understated architectural field aesthetic. Underline-only or full glass-trough design.
+- Full Trough: `rgba(20, 20, 20, 0.8)` background, sharp edges, `1px solid rgba(255, 255, 255, 0.1)`. Padding: `space-sm` by `space-md`. Text: `body-md` in `#FFFFFF`.
+- Placeholder: `#9E9E9E` with slight letter tracking.
+- Focus: Border transitions to `#F2B36B` with zero outline ring; an understated inner glow indicates presence.
+
+### Checkboxes & Radios
+- Checkbox: Sharp `14px` square frame. Border `1px solid rgba(255, 255, 255, 0.25)`. Checked state fills `#0F0F0F` with an amber interior glyph (`#F2B36B`) and amber perimeter line.
+- Radio: Sharp `14px` diamond or concentric square frame. Active state displays an interior amber core square (`6px`).
+
+### Lists & Specifications
+- Divided by hairline borders (`1px solid rgba(255, 255, 255, 0.06)`).
+- Two-column tabular design: left-aligned specification labels in `label-md` (`#9E9E9E`), right-aligned values in `body-md` (`#FFFFFF`).
+
+### Architectural Plan / Gallery Viewer (Custom Component)
+- Fullscreen immersive dark viewer equipped with hairline crosshairs, ambient amber focal points for room hotspots, and floating translucent glass control bars centered at the base.

@@ -1,0 +1,6 @@
+{
+  "name": "Obsidian Sanctuary",
+  "description": "Architectural monograph and private acquisition portal for ultra-minimalist nocturnal estates.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
